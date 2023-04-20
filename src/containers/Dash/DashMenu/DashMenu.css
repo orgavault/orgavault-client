@@ -1,0 +1,23 @@
+.DashMenu {
+    background-color: var(--prime);
+    width: 220px;
+    height: 100vh;
+    padding: 30px 10px;
+}
+
+.DashMenu .apps {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.DashMenu button {
+    width: 100%;
+    padding: 10px 15px;
+    background-color: var(--trash);
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: start;
+}
